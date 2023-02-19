@@ -1,0 +1,300 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 1210px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    line-height: 1.5;
+    color: #015483;
+ 
+}
+
+header {
+    background: #B4D4ED;
+
+}
+
+header img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.header_block {
+    background-color: #D9EAF6;
+
+}
+
+.header_block__brand {
+    position: absolute;
+    top: 2vw;
+    left: 3vw;
+    font-family: 'Pacifico', cursive;
+    font-size: 5vw;
+
+}
+
+.header_block__phone {
+    position: absolute;
+    top: 2vw;
+    right: 4vw;
+    font-size: 2.75vw;
+    text-align: right;
+
+}
+
+.header_slogan {
+    padding: 3vw 4vw 3vw 4vw;
+    font-size: 3.4vw;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background: linear-gradient(180deg, #B4D4ED 0%, #D9EAF6 100%);
+
+}
+
+.header_slogan__string_first {
+    text-align: left;
+
+}
+
+.header_slogan__string_second {
+    text-align: center;
+
+}
+
+.header_slogan__string_third {
+    text-align: right;
+
+}
+
+.main {
+    background-color: #D9EAF6;
+
+}
+
+.main__block  p {
+    text-align: center;
+    margin-block-start: 0;
+    font-size: 3vw;
+    font-weight: bold;
+    padding: 3vw 4vw 3vw 4vw;
+
+}
+
+.main__block span {
+    color: red;
+
+}
+
+.main__link_rating {
+    font-size: 2.5vw;
+    text-align: center;
+    padding: 2vw 2vw 4vw 2vw;
+
+}
+
+.main__link_rating a {
+    cursor: pointer;
+    color: #015483;
+
+}
+
+.main__link_rating a:hover {
+    background-color:  #B4D3EC;
+}
+
+.main__flex_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* gap: 15px; */
+    /* width: 100%; */
+}
+
+.main__flex_container  div {
+    /* width: 475px;
+    height: 340px; */
+    padding: 5vw 2vw 2vw 2vw;
+    background-color: #ABCDE8;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 3vw;
+    overflow: hidden;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.main__flex_container span {
+    font-family: 'Pacifico', cursive;
+    font-size: 4.2vw;
+
+
+}
+
+.main__flex_container a {
+    color: #015483;
+    /* font-size: 4vw; */
+}
+
+.main__flex_container a:hover {
+    color: rgb(235, 67, 137);
+    transform: scale(1.05);
+
+}
+
+.main__reasons_list {
+    padding: 4vw 4vw 3vw 12vw;
+    font-size: 2.5vw;
+    line-height: 1.7;
+
+}
+
+.main__flex_container img {
+    background-size: cover;
+    /* width: 475px; */
+    /* height: 340px; */
+    border-radius: 15px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+
+    /* display: block; */
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.license_container {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; */
+    padding: 0 4vw 3vw 7vw;
+    font-size: 2.5vw;
+
+}
+
+.category_header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding: 4vw 4vw 3vw 7vw;
+    line-height: 1.7;
+
+}
+
+.car_moto_logo {
+    text-align: center;
+
+}
+
+.category_header div {
+    font-size: 2.7vw;
+
+}
+
+.license_container__price {
+    padding: 4vw 4vw 3vw 7vw;
+
+
+}
+
+.license_container__price span {
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.footer {
+    font-size: 2.7vw;
+    line-height: 1.7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #b4d4ed;
+
+}
+
+.main__vk{
+    background-color: #b4d4ed;
+    text-align: center;
+    padding-bottom: 4vw;
+
+}
+
+.adress {
+    padding: 4vw 4vw 4vw 4vw;
+
+}
+  
+.adress span {
+    text-decoration: underline;
+
+}
+
+.schedule {
+    padding: 4vw 4vw 4vw 4vw;
+
+}
+
+.schedule span {
+    text-decoration: underline;
+
+}
+
+.copyright {
+    padding: 1vw 1vw 1vw 1vw;
+    background-color: #b4d4ed;
+    text-align: right;
+
+}
+
+.main__list {
+    /* padding: 4vw 4vw 4vw 10vw; */
+    font-size: 2.2vw;
+    background-color: #D9EAF6;
+    padding-bottom: 4vw;
+ 
+}
+
+.main__list li {
+    padding-left: 7vw;
+    list-style-type: none; 
+    line-height: 2;  
+
+}
+
+.main__list p {
+    text-align: center;
+    padding: 4vw 4vw 4vw 4vw;
+    font-size: 3vw;
+    text-decoration: underline;
+}
+
+.main__list a {
+    text-decoration: none; 
+    /* padding: 4vw 4vw 4vw 4vw; */
+    color: #015483;
+}
+
+.main__list a:hover {
+    /* background: #ABCDE8; */
+}
+
+
+
+
+
+
+
+
