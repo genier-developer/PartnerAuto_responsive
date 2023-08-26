@@ -143,6 +143,15 @@ header img {
 
 }
 
+.main__flex_container button {
+    background-color: #015483;
+    padding: 10px;
+    border-radius: 10px;
+    color: aliceblue;
+    border: none;
+    font-size: 1rem;
+}
+
 .main__flex_container a {
     color: #015483;
     /* font-size: 4vw; */
