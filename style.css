@@ -148,6 +148,9 @@ header img {
     border: none;
     font-size: 1rem;
 }
+.main__flex_container button:hover {
+    cursor: pointer;
+}
 
 .main__flex_container a {
     color: #015483;
