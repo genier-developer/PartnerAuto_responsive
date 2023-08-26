@@ -83,7 +83,7 @@ header img {
 .main__block  p {
     text-align: center;
     margin-block-start: 0;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: bold;
     padding: 3vw 4vw 3vw 4vw;
 
@@ -95,7 +95,7 @@ header img {
 }
 
 .main__link_rating {
-    font-size: 2.5vw;
+    font-size: 1.7vw;
     text-align: center;
     padding: 2vw 2vw 4vw 2vw;
 
@@ -120,16 +120,14 @@ header img {
 }
 
 .main__flex_container  div {
-    /* width: 475px;
-    height: 340px; */
-    padding: 5vw 2vw 2vw 2vw;
+    padding: 2vw;
     background-color: #ABCDE8;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
     border-radius: 15px;
     text-align: center;
-    font-size: 3vw;
+    font-size: 2vw;
     overflow: hidden;
-    width: 45%;
+    max-width: 55%;
     margin-left: auto;
     margin-right: auto;
 
@@ -138,8 +136,7 @@ header img {
 
 .main__flex_container span {
     font-family: 'Pacifico', cursive;
-    font-size: 4.2vw;
-
+    font-size: 3vw;
 
 }
 
@@ -154,30 +151,21 @@ header img {
 
 .main__flex_container a {
     color: #015483;
-    /* font-size: 4vw; */
-}
-
-.main__flex_container a:hover {
-    color: rgb(235, 67, 137);
-    transform: scale(1.05);
 
 }
+
 
 .main__reasons_list {
     padding: 4vw 4vw 3vw 12vw;
-    font-size: 2.5vw;
+    font-size: 2vw;
     line-height: 1.7;
 
 }
 
 .main__flex_container img {
     background-size: cover;
-    /* width: 475px; */
-    /* height: 340px; */
     border-radius: 15px;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
-
-    /* display: block; */
     width: 100%;
     height: auto;
     margin-left: auto;
@@ -194,11 +182,18 @@ header img {
 
 }
 
+.license_container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 .category_header {
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
-    padding: 4vw 4vw 3vw 7vw;
+    padding: 4vw 4vw 0 7vw;
     line-height: 1.7;
 
 }
@@ -209,12 +204,14 @@ header img {
 }
 
 .category_header div {
-    font-size: 2.7vw;
+    font-size: 2vw;
 
 }
 
 .license_container__price {
-    padding: 4vw 4vw 3vw 7vw;
+    font-size: 2vw;
+    padding-bottom: 4vw;
+    text-align: center;
 
 
 }
@@ -226,24 +223,25 @@ header img {
 }
 
 .footer {
-    font-size: 2.7vw;
+    font-size: 1.7vw;
     line-height: 1.7;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     background-color: #b4d4ed;
 
 }
 
 .main__vk{
     background-color: #b4d4ed;
-    text-align: center;
-    padding-bottom: 4vw;
+    align-self: auto;
+    padding-bottom: 2vw;
 
 }
 
 .adress {
-    padding: 4vw 4vw 4vw 4vw;
+    padding: 2vw 2vw 2vw 2vw;
 
 }
   
