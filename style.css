@@ -85,8 +85,10 @@ header img {
 
 .main__block  p {
     text-align: center;
+    font-weight: bold;
     font-size: clamp(12px, 4vw, 32px);
     padding: clamp(20px, 4vw, 32px);
+    padding-top: 5vw;
 
 }
 
