@@ -227,6 +227,7 @@ header img {
     background-color: #b4d4ed;
     display: flex;
     flex-wrap: wrap;
+    padding-top: 30px;
 
 }
 
@@ -252,6 +253,9 @@ header img {
     background-color: #b4d4ed;
     text-align: right;
     font-size: clamp(6px, 4vw, 14px);
+    flex-basis: 100%;
+    text-align: center;
+    padding: 10px;
 
 }
 
